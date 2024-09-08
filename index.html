@@ -46,7 +46,6 @@
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            filter: blur(5px);
             justify-content: center; /* Ajuster l'espacement entre les éléments */
             margin-top: 20px;
         }
@@ -62,6 +61,7 @@
         }
         .gallery-item img {
             width: 100%;
+            filter: blur(4px);
             height: auto; /* Garder les proportions de l'image */
             border-radius: 15px;
             pointer-events: none; /* Désactiver les interactions avec l'image */
