@@ -190,6 +190,14 @@
                 <p><strong id="Prixlittle19">Prix : 180€</strong></p>
                 <a href="achat6.html?title=LittleBoys#19&price=110&img=littleboys20.png" class="buy-button">Acheter</a>
             </div>
+            <div class="gallery-item" data-id="little23" data-sold="false">
+                <img id="little23" src="littleboys222.png" alt="NFT 8">
+                <div class="overlay"></div>
+                <h3 id="littletext23">LittleBoys#23</h3>
+                <p>No comment.</p>
+                <p><strong id="Prixlittle19">Prix : 160€</strong></p>
+                <a href="achat7.html?title=LittleBoys#22" class="buy-button">Acheter</a>
+            </div>
         </div>
     </div>
     <script>
@@ -245,6 +253,13 @@
         localStorage.setItem('nomName6', nomName6);
         localStorage.setItem('imageProduit6', imageProduit6);
         localStorage.setItem('prixProduit6', prixProduit6);
+
+        const nomName7 = document.getElementById('littletext23').innerText;
+        const imageProduit7 = document.getElementById('little23').src;
+        const prixProduit7 = document.getElementById('Prixlittle23').innerText;
+        localStorage.setItem('nomName7', nomName7);
+        localStorage.setItem('imageProduit7', imageProduit7);
+        localStorage.setItem('prixProduit7', prixProduit7);
 
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault(); // Désactive le menu contextuel
