@@ -232,6 +232,15 @@
                 <a href="achat11.html?title=LittleBoys#12" class="buy-button">Acheter</a>
             </div>
 
+            <div class="gallery-item" data-id="little2" data-sold="false">
+                <img id="little2" src="littleboys2.png" alt="NFT 13">
+                <div class="overlay"></div>
+                <h3 id="littletext2">LittleBoys#2</h3>
+                <p>No comment.</p>
+                <p><strong id="Prixlittle2">Prix : 120€</strong></p>
+                <a href="achat12.html?title=LittleBoys#12" class="buy-button">Acheter</a>
+            </div>
+
 
         </div>
     </div>
@@ -324,6 +333,13 @@
         localStorage.setItem('nomName11', nomName11);
         localStorage.setItem('imageProduit11', imageProduit11);
         localStorage.setItem('prixProduit11', prixProduit11);
+
+        const nomName12 = document.getElementById('littletext2').innerText;
+        const imageProduit12 = document.getElementById('little2').src;
+        const prixProduit12 = document.getElementById('Prixlittle2').innerText;
+        localStorage.setItem('nomName12', nomName12);
+        localStorage.setItem('imageProduit12', imageProduit12);
+        localStorage.setItem('prixProduit12', prixProduit12);
 
 
 
