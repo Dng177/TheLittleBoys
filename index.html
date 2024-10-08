@@ -16,6 +16,12 @@
             -ms-user-select: none; /* Désactiver la sélection de texte pour Internet Explorer/Edge */
             user-select: none; /* Désactiver la sélection de texte pour les autres navigateurs */
         }
+        .warning {
+            text-align: center;
+            margin: 20px 0;
+            color: red; /* Couleur de l'avertissement */
+            font-size: 1.1em; /* Taille de police de l'avertissement */
+        }
         header {
             background: #333;
             color: #fff;
@@ -133,6 +139,12 @@
             <h1>Mes Collections</h1>
         </div>
     </header>
+
+            <!-- Avertissement centré -->
+    <div class="container">
+        <p class="warning">⚠️ Attention :Pour votre sécurité, veuillez ne pas effectuer le paiement en plusieurs fois.</p>
+    </div>
+
     <div class="container">
         <div class="gallery">
             <div class="gallery-item" data-id="little777" data-sold="false">
